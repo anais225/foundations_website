@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.wrapper {
+    width: 1200;
+    margin: 0;
+}
+
+.nav-container {
+    background: #004539;
+    height: 100px;
+    display: flex;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between 
+
+}
+
+
+.name-slogan {
+    height: 72px;
+
+    color: white;
+    margin-left: 400px;
+    margin-top: 20px;
+}
+
+    
+ .loginbtn {
+    font-size: 15px;
+    color: white;
+    margin-left: 500px;
+    text-decoration: none;
+ }
+
+
+.loginbtn::after{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: white;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+
+}
+.loginbtn:hover::after {
+    width: 100%;
+}
+
+.header-container {
+    background: black;
+    height: calc(100vh - 100px);
+    color: white;
+    align-items: center;
+    background-size: contain;
+}
+
+
+.textabout {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 50px;
+
+}
+
+.onlytxt {
+    flex: 1;
+    
+}
+
+
